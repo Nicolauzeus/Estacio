@@ -1,0 +1,32 @@
+//estrutura de decisões simples
+
+
+#include <stdio.h>
+
+int main() {
+  int numero1 = 8;
+  int numero2 = 5;
+
+  if (numero1 > numero2) {
+    printf("numero1 é maior que numero2\n");
+  }
+
+  return 0;
+}
+
+//Estruturas de decisão composta
+
+
+#include <stdio.h>
+
+int main() {
+  int numero = 10;
+
+  if (numero % 2 == 0) {
+    printf("O número é par\n");
+  } else {
+    printf("O número é ímpar\n");
+  }
+
+  return 0;
+}
