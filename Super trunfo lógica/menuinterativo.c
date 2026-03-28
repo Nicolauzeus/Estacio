@@ -1,6 +1,6 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include <stdio.h> // Biblioteca para entrada e saída de dados
+#include <stdlib.h> // Biblioteca para funções de utilidade geral, como geração de números aleatórios
+#include <time.h> // Biblioteca para manipulação de data e hora, usada aqui para gerar números aleatórios baseados no tempo
 
 int main() {
     int opcao;
@@ -20,7 +20,7 @@ int main() {
             printf("Iniciando o jogo...\n");
 
             srand(time(0));
-            numeroSecreto = rand() % 10;
+            numeroSecreto = rand() % 10; // Gera um número aleatório entre 0 e 9
                 do {
                 printf("Digite seu palpite (0-9): ");
                 scanf("%d", &palpite);
