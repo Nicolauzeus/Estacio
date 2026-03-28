@@ -29,7 +29,13 @@ do {
         return 1; // Encerra o programa com código de erro
     }
 
-    printf("Computador escolheu: %d\n", computador);
+    if (computador == 0) {
+        printf("Computador escolheu: Pedra\n");
+    } else if (computador == 1) {
+        printf("Computador escolheu: Papel\n");
+    } else {
+        printf("Computador escolheu: Tesoura\n");
+    }
 
     if (jogador == computador) {
         printf("Empate!\n");
