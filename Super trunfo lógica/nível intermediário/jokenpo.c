@@ -33,7 +33,9 @@ do {
 
     if (jogador == computador) {
         printf("Empate!\n");
-    } else if ((jogador == 0 && computador == 2) || (jogador == 1 && computador == 0) || (jogador == 2 && computador == 1))
+    } else if ((jogador == 0 && computador == 2) || 
+                (jogador == 1 && computador == 0) || 
+                (jogador == 2 && computador == 1))
                 {
         printf("Você venceu!\n");
     } else {
