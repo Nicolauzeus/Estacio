@@ -1,0 +1,42 @@
+Itens iniciais
+Objetivos
+
+
+Aplicar estruturas de repetição simples (for, while, do-while) para simular movimentos básicos de peças de xadrez (Torre, Bispo, Rainha).
+ 
+Aplicar loops aninhados para simular o movimento complexo em "L" do Cavalo no tabuleiro de xadrez.
+ 
+Aplicar recursividade e loops complexos com múltiplas condições para simular movimentos avançados das peças de xadrez. 
+
+Introdução
+
+
+Seja bem-vindo a uma jornada que transformará seus conhecimentos em habilidades práticas de programação! Imagine que você acabou de ser contratado pela MateCheck, uma empresa inovadora que desenvolve jogos para ensinar programação. Seu primeiro grande projeto? 
+
+ 
+
+Um jogo de xadrez revolucionário! 
+
+ 
+
+Mas, calma, este não é um jogo comum. Aqui, as peças são controladas por linhas de código, exigindo que você domine a arte da programação para se tornar um verdadeiro mestre do xadrez virtual. Em vez de clicar e arrastar, você usará a lógica da programação em C para comandar cada peça, desafiando suas habilidades e aprendendo a fundo como estruturas de repetição funcionam na prática. 
+
+ 
+
+Dominar essas estruturas é essencial para se destacar no mercado de trabalho, permitindo criar sistemas complexos que exigem precisão e automação – habilidades cruciais na área de Tecnologia da Informação, para desenvolver jogos e muito mais.
+
+ 
+
+Neste desafio, você vivenciará o dia a dia de um programador, construindo passo a passo a lógica por trás dos movimentos das peças. O projeto será dividido em três módulos com níveis de dificuldade crescente. 
+
+ 
+
+No módulo novato, você dará os primeiros passos, utilizando as estruturas de repetição for, while e do-while para controlar os movimentos lineares da Torre, Bispo e Rainha. 
+
+ 
+
+No módulo aventureiro, o desafio se intensifica: você implementará loops aninhados para orquestrar o intrigante movimento em "L" do Cavalo. 
+
+ 
+
+Por fim, no módulo mestre, você atingirá o auge da sua jornada, dominando a recursividade para otimizar os movimentos e utilizando loops complexos com múltiplas variáveis e condições para refinar seus códigos, demonstrando maestria na manipulação de estruturas de repetição. 

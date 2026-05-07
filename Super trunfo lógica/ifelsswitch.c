@@ -1,10 +1,13 @@
 #include <stdio.h>
 
+/// @brief 
+/// @return 
 int main() {
     int opcao;
     float nota1, nota2, media;
     int valido;
 
+    
     // ===== MENU COM VALIDAÇÃO =====
     do {
         printf("\nMenu de Gerenciamento de Estudantes\n");

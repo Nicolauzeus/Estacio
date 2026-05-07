@@ -8,30 +8,34 @@ int main() {
 
 do {
         printf("Jokenpo - Escolha sua jogada:\n");
-        printf("0 - Pedra\n");
-        printf("1 - Papel\n");
-        printf("2 - Tesoura\n");
+        printf("1 - Pedra\n");
+        printf("2 - Papel\n");
+        printf("3 - Tesoura\n");
         printf("Digite sua jogada: ");
         scanf("%d", &jogador);
 
-        if (jogador < 0 || jogador > 2) {
-            printf("Jogada inválida! Por favor, escolha entre 0, 1 ou 2.\n");
+        if (jogador < 1 || jogador > 3) {
+            printf("Jogada inválida! Por favor, escolha entre 1, 2 ou 3.\n");
         }
-    } while (jogador < 0 || jogador > 2); // Continua solicitando até que uma jogada válida seja feita 
+    } while (jogador < 1 || jogador > 3); // Continua solicitando até que uma jogada válida seja feita 
+
+    if (jogador == 1) {
+    printf("Você escolheu: Pedra\n");
+    } else if (jogador == 2) {
+    printf("Você escolheu: Papel\n");
+    } else {
+    printf("Você escolheu: Tesoura\n");
+    }
+
 
 
     srand(time(0)); // Inicializa a semente para geração de números aleatórios
-    computador = rand() % 3; // Gera um número aleatório entre 0 e 2
+    computador = rand() % 3 + 1; // Gera um número aleatório entre 0 e 2
 
-
-    if (jogador < 0 || jogador > 2) {
-        printf("Jogada inválida! Por favor, escolha entre 0, 1 ou 2.\n");
-        return 1; // Encerra o programa com código de erro
-    }
-
-    if (computador == 0) {
+    
+    if (computador == 1) {
         printf("Computador escolheu: Pedra\n");
-    } else if (computador == 1) {
+    } else if (computador == 2) {
         printf("Computador escolheu: Papel\n");
     } else {
         printf("Computador escolheu: Tesoura\n");
@@ -39,9 +43,9 @@ do {
 
     if (jogador == computador) {
         printf("Empate!\n");
-    } else if ((jogador == 0 && computador == 2) || 
-                (jogador == 1 && computador == 0) || 
-                (jogador == 2 && computador == 1))
+    } else if ((jogador == 1 && computador == 3) || 
+                (jogador == 2 && computador == 1) || 
+                (jogador == 3 && computador == 2))
                 {
         printf("Você venceu!\n");
     } else {
