@@ -4,9 +4,10 @@ int main() {
 
     while (i <= 10) 
     {
-        if (i % 2 == 0)
-
-        printf("o número %d é par\n" , i);
+        if (i % 2 == 0) 
+        {
+            printf("o número %d é par \n", i);
+        }
         i++;
     }
 
